@@ -19,36 +19,38 @@
 # Put a comment noting which class is the base class
 
 # Vehicle is the base class - everything else builds off of this one.
+
+
 class Vehicle:
     def __init__(self):
-    	pass
+        pass
 
 
 class GroundVehicle(Vehicle):
     def __init__(self):
-    	pass
+        pass
 
 
 class Car(GroundVehicle):
     def __init__(self):
-    	pass
+        pass
 
 
 class Motorcycle(GroundVehicle):
     def __init__(self):
-    	pass
+        pass
 
 
 class FlightVehicle(Vehicle):
     def __init__(self):
-    	pass
+        pass
 
 
 class Airplane(FlightVehicle):
     def __init__(self):
-    	pass
+        pass
 
 
 class Starship(FlightVehicle):
     def __init__(self):
-    	pass
+        pass
